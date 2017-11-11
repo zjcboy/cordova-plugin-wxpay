@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-wxpay",
+  "version": "0.0.1",
+  "description": "A cordova plugin, a JS version of WXPay SDK",
+  "cordova": {
+    "id": "cordova-plugin-wxpay",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcboy/cordova-plugin-wxpay.git"
+  },
+  "keywords": [
+    "cordova",
+    "wechat",
+    "weixin",
+    "wxpay",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+        "<2.0.0": {
+          "cordova": ">=3.5.0"
+        },
+        "2.0.0": {
+          "cordova": ">=6.1.0",
+          "cordova-android": ">=6.1.0",
+          "cordova-ios": ">=4.3.1"
+        }
+    }
+  }
+}
